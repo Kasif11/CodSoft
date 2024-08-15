@@ -1,10 +1,13 @@
 // Selects the input box by their Id
 let input = document.getElementById('inputBox');
+
 // Selecting all the buttons by query selector and storing them in the button variables
 let buttons = document.querySelectorAll('button')
-// Take Empty String for storing the result
+
+// Take Empty String for storing the result after calculation
 let string = "";
 let arr = Array.from(buttons);
+
 arr.forEach(button => {
     button.addEventListener('click', (e) =>{
         if(e.target.innerHTML == '='){

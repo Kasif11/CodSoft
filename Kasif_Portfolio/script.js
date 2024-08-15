@@ -1,5 +1,5 @@
 var typed = new Typed('#element1', {
-    strings: ['Kasif.'],
+    strings: ['Kasif','Kasif.','Kasif','Kasif.','Kasif','Kasif.','Kasif','Kasif.','Kasif','Kasif.'],
     typeSpeed: 100,
     });
 var typed = new Typed('#element2', {
